@@ -31,6 +31,7 @@ plugins {
     alias(libs.plugins.gradle.versions)
     alias(libs.plugins.version.catalog.update)
     alias(libs.plugins.compose.compiler)
+  id("org.sonarqube") version "5.0.0.4638"
 }
 
 apply("${project.rootDir}/buildscripts/toml-updater-config.gradle")
